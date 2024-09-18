@@ -21,7 +21,7 @@ public class productApi {
 
     @Inject
     @ConfigProperty(name = "message.product.created.update")
-    String productCreateUpdatedMessage;
+    public String productCreateUpdatedMessage;
 
 
     @GET
